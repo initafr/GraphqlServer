@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "graphQL server",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
   "author": "Alejandro Flores",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.4",
     "express-graphql": "^0.6.12",
     "graphql": "^14.0.2",
